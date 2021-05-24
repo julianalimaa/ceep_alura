@@ -1,0 +1,14 @@
+.lista-notas{
+    display: flex;
+    justify-content: space-between;
+    width:70%;
+}
+
+.lista-notas_itens{
+    justify-content:space-between;
+    width:100%;
+}
+
+.lista-notas_item{
+    width:100%;
+}
