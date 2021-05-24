@@ -1,19 +1,22 @@
 import React, { Component } from "react";
-import "./estilo.css"
-
+import "./estilo.css";
 class FormularioCadastro extends Component {
   render() {
     return (
-      <form className="formulario">
-        <input 
-          type="text" 
+      <form className="form-cadastro ">
+        <input
+          type="text"
           placeholder="Título"
-          className="formulario-cadastro_input"/>
-        <textarea 
+          className="form-cadastro_input"
+        />
+        <textarea
           rows={15}
-          placeholder="Escreva sua nota..." 
-          className="formulario-cadastro_input"/>
-        <button className="formulario_botao formulario-cadastro_input">Criar Nota</button>
+          placeholder="Escreva sua nota..."
+          className="form-cadastro_input"
+        />
+        <button className="form-cadastro_input form-cadastro_submit">
+          Criar Nota
+        </button>
       </form>
     );
   }
